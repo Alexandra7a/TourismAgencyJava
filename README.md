@@ -17,3 +17,8 @@
 </ul>
 
 </p>
+<p>
+  <h3>Proto Buffer addition:</h3>
+  <p>The Proto Buffer facilitate the possibility of connecting different language implementation for client and server. I chose the server to be in C# and the client in Java.</p><br>
+  The Java project for the server is <a href="https://github.com/Alexandra7a/TourismAgencyCSharp.git">here</a>
+</p>
