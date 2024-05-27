@@ -31,8 +31,20 @@ message Employee {
 Once done a command must be executed with proto compiler. It specifies the location and name where the two NO EDITABLE files must go. They are there to help the conversion between the programming language and proto syntax and vice versa.
 
 # *SECOND*
+![Screenshot 2024-05-27 124940](https://github.com/Alexandra7a/TourismAgencyJava/assets/63046754/8cd3c9d8-55f0-4456-a19e-7af44d35ef62)
+
 The purpose of the second part of the project is the web functionalitie. So I chose to make a CRUD application which uses the data from the main project.
 ## Rest Services
 The rest services facilitate the requests for data using HTTP protocol and methods(DELETE,PUT,GET,POST and so on)
+
+```java
+//request example
+    @RequestMapping("/greeting") // YOU MAP THE REQUEST TO THIS FUNCTION TO DEAL WITH IT
+    public  String greeting(@RequestParam(value="name", defaultValue="World") String name) {
+        return String.format(template, name);
+    }
+```
+## React client
+
 
 
