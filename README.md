@@ -46,4 +46,4 @@ The rest services facilitate the requests for data using HTTP protocol and metho
     }
 ```
 ## React client
-
+For the rest client I have created calls for the rest services. With React Components I created a table, a form, and a main view for my app.
