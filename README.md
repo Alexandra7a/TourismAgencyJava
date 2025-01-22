@@ -8,6 +8,11 @@ The project aims to build an employee dedicated application to help manage the t
 I worked in java for this one. As a build tool I used Gradle. I worked with Rest services and I built a React client to connect to a simple CRUD version of the project.
 
 ## 📋 The structure of the project
+### See branches for:
+- Protobuffer (C# server)
+- Hibernate (Employee entity)
+- Rest Client
+  
 The project has two phases. One more complex which aims to emphasize the client-server communication and one for Web purposes, introducing Rest and React.
 # *FIRST*
 The project is organized in Modules:
